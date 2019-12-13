@@ -12,6 +12,10 @@ namespace Task5
 		private static String fileName = "SerializedList.json";
 		private static String fileNameEmpty = "SerializedListEmpty.json";
 
+        ///
+        /// I assumed that Head and Tail are always references to first/last list node,
+        /// that Count always represents current amount of list nodes, and when Count == 0 Head and Tail == null
+		///
 		static void Main(String[] args)
         {
 			ListNode testNode1 = new ListNode();

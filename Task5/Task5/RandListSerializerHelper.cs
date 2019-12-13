@@ -197,8 +197,8 @@ namespace Task5 {
 			//Start Nodes
 			builder.Append(listNodes);
 
-			//TODO: Ask is it possible that Head and Tail aren't references to first/last list node
-			if (list.Head != null)
+            //TODO: Assume that Head and Tail are always reference to first/last list node and == null when list is empty
+            if (list.Head != null)
 			{
 				if (isNew)
 					nodesToProcess.Push(list.Tail);
